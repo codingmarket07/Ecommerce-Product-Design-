@@ -12,7 +12,7 @@ $(".qty_select").click(function() {
   $(".select_quantity").show();
 });
 
-$(".sliders .close").click(function() {
+$(".sliders .close, .bg_shadow").click(function() {
   $(".sliders").removeClass("active");
 });
 
